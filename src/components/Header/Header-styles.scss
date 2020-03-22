@@ -1,0 +1,20 @@
+@import './../../assets/css/styles.scss';
+
+.Header {
+    background-color: $gray;
+    color: $white;
+    padding: 1.5rem 0;
+
+    .logo-text {
+        font-weight: 700;
+        font-size: 2.2rem;
+    }
+
+    .nav a {
+        padding: 0 1.5rem;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
