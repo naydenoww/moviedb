@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Home from './components/Home';
 import About from './components/About';
+import Footer from './components/Footer';
 
 // Bootstrap Components
 import Container from 'react-bootstrap/Container';
@@ -20,6 +21,7 @@ const App = () => {
           <Route path="/about" exact component={About} />
         </Switch>
       </Container>
+      <Footer />
     </Router>
   );
 }
