@@ -1,5 +1,8 @@
 import React from 'react';
 
+// Styles
+import './Home-styles.scss';
+
 // Bootstrap Components
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -13,7 +16,7 @@ const Home = () => {
   return(
     <Row>
         <Col>
-        <InputGroup className="mt-5 mb-5">
+        <InputGroup className="mt-5 mb-5 search-movie-wrapper">
           <DropdownButton
             as={InputGroup.Prepend}
             variant="outline-secondary"

@@ -1,5 +1,9 @@
 @import './variables.scss';
 
+* {
+    outline: none;
+}
+
 html {
     font-size: 62.5%;
 }

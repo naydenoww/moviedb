@@ -1,0 +1,9 @@
+@import './../../assets/css/styles.scss';
+
+.search-movie-wrapper {
+    & button,
+    & input,
+    & a {
+        font-size: 1.6rem;
+    }
+}
